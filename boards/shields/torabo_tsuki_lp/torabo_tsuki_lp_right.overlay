@@ -3,15 +3,14 @@
 #include <dt-bindings/zmk/input_transform.h>
 
 &pointing_listener {
-    input-processors =
-        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>
-        , <&zip_xy_to_scroll>;
-};
-
-&zip_xy_to_scroll {
-    compatible = "zmk,input-processor-zip-xy-transform";
-    type = <INPUT_TRANSFORM_XY_TO_SCROLL>;
-    layers = <3>;   // ← こっちでレイヤー制御（推奨）
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+    scroller {
+	    layers = <3>;
+        input-processors = <&zip_xy_to_scroll_mapper>, 
+　　　　　<&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT)>, 
+　　　　　　<&zip_scroll_scaler 1 128>;
+        process-next;
+    };
 };
 
 &size_s_transform {
