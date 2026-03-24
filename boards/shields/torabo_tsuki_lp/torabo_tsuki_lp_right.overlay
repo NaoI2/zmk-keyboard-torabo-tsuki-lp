@@ -5,12 +5,13 @@
 &pointing_listener {
     input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>
-        , <&zip_xy_to_scroll 3>;  // ← レイヤー3の時だけスクロール化
+        , <&zip_xy_to_scroll>;
 };
 
 &zip_xy_to_scroll {
     compatible = "zmk,input-processor-zip-xy-transform";
     type = <INPUT_TRANSFORM_XY_TO_SCROLL>;
+    layers = <3>;   // ← こっちでレイヤー制御（推奨）
 };
 
 &size_s_transform {
