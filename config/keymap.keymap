@@ -30,11 +30,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans      &trans                    &trans              &trans               &trans                                      &trans         &trans          &trans                     &trans           &trans     &trans
-&trans  &kp F11     &kp LC(DOWN_ARROW)        &kp LC(UP_ARROW)    &kp LG(SPACE)        &kp LA(LG(L))                               &kp LG(C)      &kp LG(V)       &kp LG(X)                  &kp LG(W)        &kp LG(T)  &trans
-&trans  &kp LC(F3)  &kp LC(F4)                &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp DEL        &trans         &trans        &kp PAGE_UP    &mkp LCLK       &mt LEFT_COMMAND UP_ARROW  &mkp RCLK        &mkp MB3   &trans
-&trans  &trans      &kp LG(LC(LS(NUMBER_4)))  &kp LG(LBKT)        &kp LC(TAB)          &kp LG(RBKT)   &kp LA(SPACE)  &kp LEFT_ALT  &kp PAGE_DOWN  &kp LEFT_ARROW  &mt LEFT_SHIFT DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
-&trans  &trans      &trans                    &trans              &trans               &trans         &trans         &kp LG(Z)     &kp LG(S)      &trans          &trans                     &trans           &kp LG(Q)  &trans
+&trans  &trans                    &trans                &trans              &trans                 &trans                                  &trans         &trans          &trans                     &trans           &trans     &trans
+&trans  &kp F11                   &kp LC(DOWN_ARROW)    &kp LC(UP_ARROW)    &kp LG(SPACE)          &kp LA(LG(L))                           &kp LG(C)      &kp LG(V)       &kp LG(X)                  &kp LG(W)        &kp LG(T)  &trans
+&trans  &kp LC(F3)                &kp LC(F4)            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp DEL        &trans        &trans     &kp PAGE_UP    &mkp LCLK       &mt LEFT_COMMAND UP_ARROW  &mkp RCLK        &mkp MB3   &trans
+&trans  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LEFT_BRACKET)  &kp LC(TAB)         &kp LG(RIGHT_BRACKET)  &kp LA(SPACE)  &kp LEFT_ALT  &trans     &kp PAGE_DOWN  &kp LEFT_ARROW  &mt LEFT_SHIFT DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
+&trans  &kp ESCAPE                &trans                &kp LS(LC(TAB))     &trans                 &trans         &trans        &kp LG(Z)  &kp LG(S)      &trans          &trans                     &trans           &kp LG(Q)  &trans
             >;
         };
 
