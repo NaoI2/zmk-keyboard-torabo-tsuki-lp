@@ -30,21 +30,21 @@
 
         layer_1 {
             bindings = <
-&trans  &trans      &trans              &trans              &trans               &trans                            &trans         &trans          &trans                      &trans           &trans    &trans
-&trans  &trans      &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)    &kp LG(SPACE)        &kp LA(LG(L))                     &kp LG(C)      &kp LG(V)       &kp LG(X)                   &trans           &trans    &trans
-&trans  &kp LC(F3)  &kp LC(F4)          &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp DEL        &trans  &trans     &kp PAGE_UP    &mkp LCLK       &mt RIGHT_COMMAND UP_ARROW  &mkp RCLK        &mkp MB3  &trans
-&trans  &trans      &trans              &kp LG(LBKT)        &kp LC(TAB)          &kp LG(RBKT)   &trans  &trans     &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW              &kp RIGHT_ARROW  &trans    &trans
-&trans  &trans      &trans              &trans              &trans               &trans         &trans  &kp LG(Z)  &kp LG(S)      &trans          &trans                      &trans           &trans    &trans
+&trans  &trans      &trans                    &trans              &trans               &trans                                      &trans         &trans          &trans                     &trans           &trans     &trans
+&trans  &kp F11     &kp LC(DOWN_ARROW)        &kp LC(UP_ARROW)    &kp LG(SPACE)        &kp LA(LG(L))                               &kp LG(C)      &kp LG(V)       &kp LG(X)                  &kp LG(W)        &kp LG(T)  &trans
+&trans  &kp LC(F3)  &kp LC(F4)                &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp DEL        &trans         &trans        &kp PAGE_UP    &mkp LCLK       &mt LEFT_COMMAND UP_ARROW  &mkp RCLK        &mkp MB3   &trans
+&trans  &trans      &kp LG(LC(LS(NUMBER_4)))  &kp LG(LBKT)        &kp LC(TAB)          &kp LG(RBKT)   &kp LA(SPACE)  &kp LEFT_ALT  &kp PAGE_DOWN  &kp LEFT_ARROW  &mt LEFT_SHIFT DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
+&trans  &trans      &trans                    &trans              &trans               &trans         &trans         &kp LG(Z)     &kp LG(S)      &trans          &trans                     &trans           &kp LG(Q)  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans         &trans            &trans             &trans         &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)      &kp LS(N7)     &kp LS(N8)        &kp LS(N9)         &kp LS(N0)     &trans
-&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans  &trans  &kp LEFT_BRACE  &kp MINUS      &kp EQUAL         &kp RIGHT_BRACE    &kp COLON      &trans
-&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp LS(MINUS)   &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB         &kp DEL        &trans            &trans             &trans         &trans
+&trans  &trans       &trans        &trans        &trans                  &trans                                           &trans             &trans       &trans                &trans                 &trans         &trans
+&trans  &kp EQUAL    &kp N7        &kp N8        &kp N9                  &kp ASTERISK                                     &kp EXCLAMATION    &kp HASH     &kp SEMICOLON         &kp COLON              &kp PIPE       &trans
+&trans  &kp PERCENT  &kp NUMBER_4  &kp N5        &kp NUMBER_6            &kp MINUS      &trans                   &trans   &kp QUESTION       &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS       &trans
+&trans  &kp N6       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3            &kp PLUS       &kp SLASH                &kp SQT  &kp DOUBLE_QUOTES  &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
+&trans  &trans       &kp N0        &kp PERIOD    &kp LA(LC(LEFT_ARROW))  &kp LC(LA(C))  &kp LA(LC(RIGHT_ARROW))  &trans   &trans             &kp DEL      &trans                &trans                 &trans         &trans
             >;
         };
 
