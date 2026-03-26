@@ -24,12 +24,12 @@
                 >;
             };
     
-            bt_win: bt_win {
+            bt_win: bt_win1 {
                 compatible = "zmk,behavior-macro";
                 #binding-cells = <0>;
                 bindings = <
-                    &bt BT_SEL 1
-                    &to 1
+                    &bt BT_SEL 2
+                    &to 5
                 >;
             };
         };
@@ -80,7 +80,7 @@
             bindings = <
 &trans  &trans        &trans        &trans        &trans        &trans                            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &bt BT_PRV    &bt BT_NXT    &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 4  &bt BT_SEL 3  &bt bt_win1  &bt BT_SEL 1  &bt bt_mac  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &out OUT_USB  &out OUT_BLE  &trans        &bt BT_CLR  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
