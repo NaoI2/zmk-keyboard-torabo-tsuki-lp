@@ -16,18 +16,26 @@
     };
 
     macros {
-        bt_mac: bt_mac {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0 &default_layer_set 0>;
-        };
-
-        bt_win1: bt_win1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bt BT_SEL 2 &default_layer_set 5>;
-        };
+    bt_mac: bt_mac {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <
+            &mo 0   // 念のため
+            &tog 5  // Win OFF
+            &bt BT_SEL 0
+        >;
     };
+
+    bt_win1: bt_win1 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <
+            &tog 0  // Mac OFF
+            &mo 5
+            &bt BT_SEL 2
+        >;
+    };
+};
 
     keymap {
         compatible = "zmk,keymap";
