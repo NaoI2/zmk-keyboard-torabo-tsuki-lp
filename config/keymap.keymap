@@ -54,11 +54,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans       &trans         &trans                  &trans                                               &trans             &trans       &trans                &trans                 &trans                &trans
-&trans  &kp EQUAL         &kp INSERT   &kp END        &kp HOME                &kp C_VOLUME_UP                                      &kp EXCLAMATION    &kp HASH     &kp SEMICOLON         &kp COLON              &kp PIPE              &trans
-&trans  &kp CARET         &kp LC(L)    &kp LC(K)      &kp LC(J)               &kp C_VOLUME_DOWN  &trans                   &trans   &kp QUESTION       &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS              &trans
-&trans  &kp TILDE         &kp PLUS     &kp LESS_THAN  &kp GREATER_THAN        &kp LG(PLUS)       &kp LG(MINUS)            &kp SQT  &kp DOUBLE_QUOTES  &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH             &trans
-&trans  &kp LEFT_COMMAND  &kp PERCENT  &kp DOLLAR     &kp LA(LC(LEFT_ARROW))  &kp LC(LA(C))      &kp LA(LC(RIGHT_ARROW))  &trans   &trans             &kp DEL      &trans                &kp UNDERSCORE         &kp NON_US_BACKSLASH  &trans
+&trans  &trans          &trans       &trans         &trans                  &trans                                               &trans             &trans       &trans                &trans                 &trans                &trans
+&trans  &kp EQUAL       &kp INSERT   &kp END        &kp HOME                &kp C_VOLUME_UP                                      &kp EXCLAMATION    &kp HASH     &kp SEMICOLON         &kp COLON              &kp PIPE              &trans
+&trans  &kp CARET       &kp LC(L)    &kp LC(K)      &kp LC(J)               &kp C_VOLUME_DOWN  &trans                   &trans   &kp QUESTION       &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS              &trans
+&trans  &kp TILDE       &kp PLUS     &kp LESS_THAN  &kp GREATER_THAN        &kp LG(PLUS)       &kp LG(MINUS)            &kp SQT  &kp DOUBLE_QUOTES  &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH             &trans
+&trans  &kp LEFT_SHIFT  &kp PERCENT  &kp DOLLAR     &kp LA(LC(LEFT_ARROW))  &kp LC(LA(C))      &kp LA(LC(RIGHT_ARROW))  &trans   &trans             &kp DEL      &trans                &kp UNDERSCORE         &kp NON_US_BACKSLASH  &trans
             >;
         };
 
