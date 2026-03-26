@@ -22,7 +22,7 @@
             bindings = <&bt BT_SEL 0 &to 0>;
         };
 
-        bt_win: bt_win1 {
+        bt_win1: bt_win1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 2 &to 5>;
