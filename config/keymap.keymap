@@ -19,19 +19,13 @@
         bt_mac: bt_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <
-                    &bt BT_SEL 0
-                    &to 0      // ベースをMacへ
-            >;
+            bindings = <&bt BT_SEL 0 &to 0>;
         };
 
         bt_win1: bt_win1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-             bindings = <
-                &bt BT_SEL 2
-                &to 5      // ベースをWinへ
-            >;
+            bindings = <&bt BT_SEL 2 &to 5>;
         };
     };
 
@@ -50,11 +44,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans                    &trans                &trans              &trans                 &trans                                &trans         &trans          &trans                     &trans           &trans     &trans
-&trans  &kp F11                   &kp LC(DOWN_ARROW)    &kp LC(UP_ARROW)    &kp LG(SPACE)          &kp LA(LG(L))                         &kp LG(C)      &kp LG(V)       &kp LG(X)                  &kp LG(T)        &kp LG(W)  &trans
-&trans  &kp LC(F3)                &kp LC(F4)            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp DEL        &trans  &trans         &kp PAGE_UP    &mkp LCLK       &mt LEFT_COMMAND UP_ARROW  &mkp RCLK        &mkp MCLK  &trans
-&trans  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LEFT_BRACKET)  &kp LC(TAB)         &kp LG(RIGHT_BRACKET)  &kp LA(SPACE)  &trans  &kp LA(LG(V))  &kp PAGE_DOWN  &kp LEFT_ARROW  &mt LEFT_SHIFT DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
-&trans  &kp ESCAPE                &trans                &kp LS(LC(TAB))     &trans                 &trans         &trans  &kp LG(Z)      &kp LG(S)      &trans          &trans                     &kp LC(LG(Q))    &kp LG(Q)  &trans
+&trans  &trans                    &trans                &trans              &trans                 &trans                                   &trans         &trans          &trans                     &trans           &trans     &trans
+&trans  &kp F11                   &kp LC(DOWN_ARROW)    &kp LC(UP_ARROW)    &kp LG(SPACE)          &kp LA(LG(L))                            &kp LG(C)      &kp LG(V)       &kp LG(X)                  &kp LG(T)        &kp LG(W)  &trans
+&trans  &kp LC(F3)                &kp LC(F4)            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp DEL        &trans     &trans         &kp PAGE_UP    &mkp LCLK       &mt LEFT_COMMAND UP_ARROW  &mkp RCLK        &mkp MCLK  &trans
+&trans  &kp LG(LS(LC(NUMBER_4)))  &kp LG(LEFT_BRACKET)  &kp LC(TAB)         &kp LG(RIGHT_BRACKET)  &kp LA(SPACE)  &kp LG(N)  &kp LA(LG(V))  &kp PAGE_DOWN  &kp LEFT_ARROW  &mt LEFT_SHIFT DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
+&trans  &kp ESCAPE                &trans                &kp LS(LC(TAB))     &trans                 &trans         &trans     &kp LG(Z)      &kp LG(S)      &trans          &trans                     &kp LC(LG(Q))    &kp LG(Q)  &trans
             >;
         };
 
@@ -62,7 +56,7 @@
             bindings = <
 &trans  &trans            &trans       &trans         &trans                  &trans                                               &trans             &trans       &trans                &trans                 &trans                &trans
 &trans  &kp EQUAL         &kp INSERT   &kp END        &kp HOME                &kp C_VOLUME_UP                                      &kp EXCLAMATION    &kp HASH     &kp SEMICOLON         &kp COLON              &kp PIPE              &trans
-&trans  &kp CARET         &kp LC(F7)   &kp LC(K)      &kp LC(J)               &kp C_VOLUME_DOWN  &trans                   &trans   &kp QUESTION       &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS              &trans
+&trans  &kp CARET         &kp LC(L)    &kp LC(K)      &kp LC(J)               &kp C_VOLUME_DOWN  &trans                   &trans   &kp QUESTION       &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS              &trans
 &trans  &kp TILDE         &kp PLUS     &kp LESS_THAN  &kp GREATER_THAN        &kp LG(PLUS)       &kp LG(MINUS)            &kp SQT  &kp DOUBLE_QUOTES  &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH             &trans
 &trans  &kp LEFT_COMMAND  &kp PERCENT  &kp DOLLAR     &kp LA(LC(LEFT_ARROW))  &kp LC(LA(C))      &kp LA(LC(RIGHT_ARROW))  &trans   &trans             &kp DEL      &trans                &kp UNDERSCORE         &kp NON_US_BACKSLASH  &trans
             >;
@@ -90,11 +84,11 @@
 
         layer_5 {
             bindings = <
-&trans  &trans        &trans          &trans    &trans                       &trans                                            &trans       &trans  &trans     &trans        &trans                &trans
-&trans  &kp Q         &kp W           &kp E     &kp R                        &kp T                                             &kp Y        &kp U   &kp I      &kp O         &kp P                 &trans
-&trans  &kp A         &kp S           &kp D     &kp F                        &kp G        &trans            &trans             &kp H        &kp J   &kp K      &kp L         &kp SEMI              &trans
-&trans  &kp Z         &kp X           &kp C     &kp V                        &kp B        &kp TAB           &kp LC(SEMICOLON)  &kp N        &kp M   &kp COMMA  &kp DOT       &mt RIGHT_SHIFT FSLH  &trans
-&trans  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 6 SPACE  &lt 3 LANGUAGE_1  &kp BACKSPACE      &lt 2 ENTER  &trans  &trans     &kp LS(CLCK)  &lt 4 ESCAPE          &trans
+&trans  &trans        &trans          &trans    &trans                       &trans                                        &trans       &trans  &trans     &trans        &trans                &trans
+&trans  &kp Q         &kp W           &kp E     &kp R                        &kp T                                         &kp Y        &kp U   &kp I      &kp O         &kp P                 &trans
+&trans  &kp A         &kp S           &kp D     &kp F                        &kp G        &trans            &trans         &kp H        &kp J   &kp K      &kp L         &kp SEMI              &trans
+&trans  &kp Z         &kp X           &kp C     &kp V                        &kp B        &kp TAB           &kp LC(F10)    &kp N        &kp M   &kp COMMA  &kp DOT       &mt RIGHT_SHIFT FSLH  &trans
+&trans  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 6 SPACE  &lt 3 LANGUAGE_1  &kp BACKSPACE  &lt 2 ENTER  &trans  &trans     &kp LS(CLCK)  &lt 4 ESCAPE          &trans
             >;
         };
 
