@@ -16,26 +16,18 @@
     };
 
     macros {
-    bt_mac: bt_mac {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <
-            &mo 0   // 念のため
-            &tog 5  // Win OFF
-            &bt BT_SEL 0
-        >;
-    };
+        bt_mac: bt_mac {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mo 0 &tog 5 &bt BT_SEL 0>;
+        };
 
-    bt_win1: bt_win1 {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <
-            &tog 0  // Mac OFF
-            &mo 5
-            &bt BT_SEL 2
-        >;
+        bt_win1: bt_win1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog 0 &mo 5 &bt BT_SEL 2>;
+        };
     };
-};
 
     keymap {
         compatible = "zmk,keymap";
@@ -96,7 +88,17 @@
 &trans  &kp Q         &kp W           &kp E     &kp R                        &kp T                                             &kp Y        &kp U   &kp I      &kp O         &kp P                 &trans
 &trans  &kp A         &kp S           &kp D     &kp F                        &kp G        &trans            &trans             &kp H        &kp J   &kp K      &kp L         &kp SEMI              &trans
 &trans  &kp Z         &kp X           &kp C     &kp V                        &kp B        &kp TAB           &kp LC(SEMICOLON)  &kp N        &kp M   &kp COMMA  &kp DOT       &mt RIGHT_SHIFT FSLH  &trans
-&trans  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1  &kp BACKSPACE      &lt 2 ENTER  &trans  &trans     &kp LS(CLCK)  &lt 4 ESCAPE          &trans
+&trans  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 6 SPACE  &lt 3 LANGUAGE_1  &kp BACKSPACE      &lt 2 ENTER  &trans  &trans     &kp LS(CLCK)  &lt 4 ESCAPE          &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp A   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
