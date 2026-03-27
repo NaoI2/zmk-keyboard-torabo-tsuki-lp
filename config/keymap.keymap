@@ -38,7 +38,7 @@
 &trans  &kp Q             &kp W           &kp E     &kp R                        &kp T                                             &kp Y        &kp U   &kp I      &kp O         &kp P                 &trans
 &trans  &kp A             &kp S           &kp D     &kp F                        &kp G        &trans            &trans             &kp H        &kp J   &kp K      &kp L         &kp SEMI              &trans
 &trans  &kp Z             &kp X           &kp C     &kp V                        &kp B        &kp TAB           &kp LC(SEMICOLON)  &kp N        &kp M   &kp COMMA  &kp DOT       &mt RIGHT_SHIFT FSLH  &trans
-&trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LALT  &mt LEFT_COMMAND LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1  &kp BACKSPACE      &lt 2 ENTER  &trans  &trans     &kp LS(CLCK)  &lt 4 ESCAPE          &trans
+&trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LALT  &mt LEFT_COMMAND LANGUAGE_2  &lt 1 SPACE  &lt 9 LANGUAGE_1  &kp BACKSPACE      &lt 2 ENTER  &trans  &trans     &kp LS(CLCK)  &lt 10 ESCAPE         &trans
             >;
         };
 
@@ -98,7 +98,7 @@
 &trans  &kp Q         &kp W           &kp E     &kp R                        &kp T                                         &kp Y        &kp U   &kp I      &kp O         &kp P                 &trans
 &trans  &kp A         &kp S           &kp D     &kp F                        &kp G        &trans            &trans         &kp H        &kp J   &kp K      &kp L         &kp SEMI              &trans
 &trans  &kp Z         &kp X           &kp C     &kp V                        &kp B        &kp TAB           &kp LC(F10)    &kp N        &kp M   &kp COMMA  &kp DOT       &mt RIGHT_SHIFT FSLH  &trans
-&trans  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 6 SPACE  &lt 3 LANGUAGE_1  &kp BACKSPACE  &lt 2 ENTER  &trans  &trans     &kp LS(CLCK)  &lt 4 ESCAPE          &trans
+&trans  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 7 SPACE  &lt 9 LANGUAGE_1  &kp BACKSPACE  &lt 8 ENTER  &trans  &trans     &kp LS(CLCK)  &lt 10 ESCAPE         &trans
             >;
         };
 
