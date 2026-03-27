@@ -105,7 +105,7 @@
         layer_7 {
             bindings = <
 &trans  &trans         &trans                &trans                  &trans                   &trans                               &trans         &trans          &trans                     &trans           &trans            &trans
-&trans  &kp LG(D)      &kp LC(DOWN_ARROW)    &kp LG(TAB)             &kp LG(SPACE)            &kp LA(LG(L))                        &kp LC(C)      &kp LC(V)       &kp LC(X)                  &kp LC(T)        &kp LC(W)         &trans
+&trans  &kp LG(D)      &trans                &kp LG(TAB)             &kp LG(SPACE)            &kp LA(LG(L))                        &kp LC(C)      &kp LC(V)       &kp LC(X)                  &kp LC(T)        &kp LC(W)         &trans
 &trans  &kp LG(T)      &kp LA(TAB)           &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &kp DEL        &trans     &trans     &kp PAGE_UP    &mkp LCLK       &mt LEFT_CONTROL UP_ARROW  &mkp RCLK        &mkp MCLK         &trans
 &trans  &kp LG(LS(S))  &kp LA(LEFT_BRACKET)  &kp LC(TAB)             &kp LA(RIGHT_BRACKET)    &kp LA(SPACE)  &kp LC(N)  &trans     &kp PAGE_DOWN  &kp LEFT_ARROW  &mt LEFT_SHIFT DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(E)         &trans
 &trans  &kp ESCAPE     &kp LA(LG(S))         &kp LS(LC(TAB))         &trans                   &trans         &trans     &kp LC(Z)  &kp LC(S)      &trans          &trans                     &kp LG(L)        &kp LA(NUMBER_4)  &trans
@@ -114,11 +114,11 @@
 
         layer_8 {
             bindings = <
-&trans  &trans          &trans       &trans         &trans                  &trans                                               &trans             &trans       &trans                &trans                 &trans                &trans
-&trans  &kp EQUAL       &kp INSERT   &kp END        &kp HOME                &kp C_VOLUME_UP                                      &kp EXCLAMATION    &kp HASH     &kp SEMICOLON         &kp COLON              &kp PIPE              &trans
-&trans  &kp CARET       &kp LC(L)    &kp LC(K)      &kp LC(J)               &kp C_VOLUME_DOWN  &trans                   &trans   &kp QUESTION       &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS              &trans
-&trans  &kp TILDE       &kp PLUS     &kp LESS_THAN  &kp GREATER_THAN        &kp LG(PLUS)       &kp LG(MINUS)            &kp SQT  &kp DOUBLE_QUOTES  &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH             &trans
-&trans  &kp LEFT_SHIFT  &kp PERCENT  &kp DOLLAR     &kp LA(LC(LEFT_ARROW))  &kp LC(LA(C))      &kp LA(LC(RIGHT_ARROW))  &trans   &trans             &kp DEL      &trans                &kp UNDERSCORE         &kp NON_US_BACKSLASH  &trans
+&trans  &trans          &trans       &trans         &trans              &trans                                           &trans             &trans       &trans                &trans                 &trans                &trans
+&trans  &kp EQUAL       &kp INSERT   &kp END        &kp HOME            &kp C_VOLUME_UP                                  &kp EXCLAMATION    &kp HASH     &kp SEMICOLON         &kp COLON              &kp PIPE              &trans
+&trans  &kp CARET       &kp F9       &kp F7         &kp F6              &kp C_VOLUME_DOWN  &trans               &trans   &kp QUESTION       &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS              &trans
+&trans  &kp TILDE       &kp PLUS     &kp LESS_THAN  &kp GREATER_THAN    &kp LC(PLUS)       &kp LC(MINUS)        &kp SQT  &kp DOUBLE_QUOTES  &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH             &trans
+&trans  &kp LEFT_SHIFT  &kp PERCENT  &kp DOLLAR     &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)   &kp LG(RIGHT_ARROW)  &trans   &trans             &kp DEL      &trans                &kp UNDERSCORE         &kp NON_US_BACKSLASH  &trans
             >;
         };
 
