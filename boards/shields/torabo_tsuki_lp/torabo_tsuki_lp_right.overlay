@@ -11,6 +11,14 @@
     };
 };
 
+/* センサー */
+&sensor_listener {
+    input-processors = <
+        &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
+        &zip_scroll_scaler 1 12
+    >;
+};
+
 &size_s_transform {
     col-offset = <7>;
 };
