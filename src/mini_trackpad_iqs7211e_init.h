@@ -105,10 +105,10 @@
 #define TRACKPAD_SETTINGS_0_1                    0x04
 #define TRACKPAD_SETTINGS_1_0                    0x03
 #define TRACKPAD_SETTINGS_1_1                    0x02
-#define X_RESOLUTION_0                           0xC2 //
-#define X_RESOLUTION_1                           0x01 // 450
-#define Y_RESOLUTION_0                           0x58 //
-#define Y_RESOLUTION_1                           0x02 // 600
+#define X_RESOLUTION_0                           0x20 //
+#define X_RESOLUTION_1                           0x03 // 800
+#define Y_RESOLUTION_0                           0xE8 //
+#define Y_RESOLUTION_1                           0x03 // 1000
 #define XY_DYNAMIC_FILTER_BOTTOM_SPEED_0         0x06
 #define XY_DYNAMIC_FILTER_BOTTOM_SPEED_1         0x00
 #define XY_DYNAMIC_FILTER_TOP_SPEED_0            0x7C
