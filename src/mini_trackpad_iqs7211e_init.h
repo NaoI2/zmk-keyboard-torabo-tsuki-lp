@@ -33,7 +33,7 @@
 
 /* Report Rates and Timing */
 /* Memory Map Position 0x28 - 0x32 */
-#define ACTIVE_MODE_REPORT_RATE_0                0x0F
+#define ACTIVE_MODE_REPORT_RATE_0                0x28
 #define ACTIVE_MODE_REPORT_RATE_1                0x00
 #define IDLE_TOUCH_MODE_REPORT_RATE_0            0x32
 #define IDLE_TOUCH_MODE_REPORT_RATE_1            0x00
@@ -105,10 +105,10 @@
 #define TRACKPAD_SETTINGS_0_1                    0x04
 #define TRACKPAD_SETTINGS_1_0                    0x03
 #define TRACKPAD_SETTINGS_1_1                    0x02
-#define X_RESOLUTION_0                           0x20 //
-#define X_RESOLUTION_1                           0x03 // 800
-#define Y_RESOLUTION_0                           0xE8 //
-#define Y_RESOLUTION_1                           0x03 // 1000
+#define X_RESOLUTION_0                           0xE1 //
+#define X_RESOLUTION_1                           0x00  // 800
+#define Y_RESOLUTION_0                           0x2C //
+#define Y_RESOLUTION_1                           0x01 // 1000
 #define XY_DYNAMIC_FILTER_BOTTOM_SPEED_0         0x06
 #define XY_DYNAMIC_FILTER_BOTTOM_SPEED_1         0x00
 #define XY_DYNAMIC_FILTER_TOP_SPEED_0            0x7C
