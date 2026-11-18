@@ -42,7 +42,7 @@
             >;
         };
 
-        MacOS2 {
+        macOS2 {
             bindings = <
 &trans  &trans                    &trans                 &trans              &trans                 &trans                                   &trans            &trans          &trans                     &trans           &trans             &trans
 &trans  &kp F11                   &kp LC(DOWN_ARROW)     &kp LC(UP_ARROW)    &kp LG(SPACE)          &kp LA(LG(L))                            &kp LG(C)         &kp LG(V)       &kp LG(X)                  &kp LG(W)        &kp LG(T)          &trans
